@@ -17,7 +17,7 @@
 
 ### Links
 
-- Live Site URL: [https://ecommerce-five-silk.vercel.app/](https://ecommerce-five-silk.vercel.app/)
+- Live Site URL: [https://gif-finder-five.vercel.app/](https://gif-finder-five.vercel.app/)
 
 ## My process
 
