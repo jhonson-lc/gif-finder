@@ -1,0 +1,32 @@
+.category__name {
+  color: #fff;
+  display: block;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+.category__item a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.category__list {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 2rem;
+}
+
+@media (max-width: 1360px) {
+  .category__list {
+    display: flex;
+    flex-direction: row;
+  }
+  .category__item a {
+    display: inline-block;
+    margin: 0 1.5rem;
+  }
+}

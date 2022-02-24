@@ -1,0 +1,34 @@
+.Gif {
+  height: 100%;
+}
+
+.gifs__grid img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.gifs__title {
+  color: #fff;
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 2rem 0;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+.Gif:nth-child(5n + 1) {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.Gif:nth-child(15n + 1) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.Gif:nth-child(3n + 3) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
